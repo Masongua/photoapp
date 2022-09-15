@@ -18,6 +18,7 @@ class ViewController: UIViewController {
 
 
     @IBAction func button(_ sender: Any) {
+        reetlabel.text = name.text!
     }
     
 }
